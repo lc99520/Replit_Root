@@ -10,3 +10,21 @@ unzip root.zip
 tar -xvf root.tar.xz
 
 ./dist/proot -S . /bin/bash
+
+su
+拓展命令行：
+
+更改root密码
+passwd
+
+安装sudo命令
+apt-get install sudo
+
+安装wget命令
+apt-get update -y && apt-get install -y wget
+
+安装curl命令
+apt-get update -y && apt-get install curl -y
+
+查看系统版本
+cat /etc/issue
